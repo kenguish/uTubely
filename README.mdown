@@ -10,6 +10,7 @@ Code is adopted from larcus94's LBYouTubeView <https://github.com/larcus94/LBYou
 
 [![](http://github.com/kenguish/uTubely/raw/master/misc/screenshot.png)](http://github.com/kenguish/uTubely/raw/master/misc/screenshot.png)
 
+Direct link to download app <https://github.com/kenguish/uTubely/raw/master/binary/uTubely.zip>
 
 If you are interested to extend the code, please feel free to contact the project maintainer on Github.
 
