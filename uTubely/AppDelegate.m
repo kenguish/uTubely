@@ -41,8 +41,6 @@
 - (IBAction)downloadAction:(id)sender {
     
     if (downloadingFlag) {
-        NSLog(@"Supposed to stop download");
-        
         [r cancel];
         [r clearDelegatesAndCancel];
 
@@ -52,6 +50,8 @@
         [self.statusTextField setStringValue: @"Download stopped."];
         downloadingFlag = NO;
         
+        [self.downloadButton setTitle: @"Go!"];
+
     } else {
         [self.statusTextField setStringValue: @"Loading the Youtube URL."];
         
