@@ -1,8 +1,9 @@
 uTubely 1.1
 ======================
-Originally posted on: August 5, 2012
+Originally posted on: August 5, 2012, last updated: September 9, 2012
 
-Updated: September 9, 2012
+Direct link to download app (compatible with OS X 10.7 and 10.8) <https://github.com/kenguish/uTubely/raw/master/binary/uTubely.zip>
+
 
 Youtube scrapping code is changed to leverage the HCYoutubeParser instead <https://github.com/hellozimi/HCYoutubeParser>. (1.0 Code was adopted from larcus94's LBYouTubeView <https://github.com/larcus94/LBYouTubeView>)
 
@@ -14,7 +15,6 @@ uTubely is an Mac app that display YouTube videos in a QTMovieView.
 
 [![](http://github.com/kenguish/uTubely/raw/master/misc/screenshot.png)](http://github.com/kenguish/uTubely/raw/master/misc/screenshot.png)
 
-Direct link to download app (compatible with OS X 10.7 and 10.8) <https://github.com/kenguish/uTubely/raw/master/binary/uTubely.zip>
 
 If you are interested to extend the code, please feel free to contact the project maintainer on Github.
 
