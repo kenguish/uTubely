@@ -45,6 +45,7 @@
 		9F1B8B0B15CDD135008FC581 /* libtidy.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F1B8B0A15CDD135008FC581 /* libtidy.dylib */; };
 		9F1B8B0D15CDD13A008FC581 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F1B8B0C15CDD13A008FC581 /* libxml2.dylib */; };
 		9F1B8B1115CDD1CC008FC581 /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F1B8B1015CDD1CC008FC581 /* JSONKit.m */; };
+		9FE4AAD215FC594200D9DC4D /* HCYoutubeParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FE4AAD115FC594200D9DC4D /* HCYoutubeParser.m */; };
 		9FFA0D2415CDEE0C002C779A /* QTKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FFA0D2315CDEE0C002C779A /* QTKit.framework */; };
 		9FFA0D3C15CE0163002C779A /* icon.iconset in Resources */ = {isa = PBXBuildFile; fileRef = 9FFA0D3B15CE0163002C779A /* icon.iconset */; };
 /* End PBXBuildFile section */
@@ -134,6 +135,8 @@
 		9F1B8B0C15CDD13A008FC581 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
 		9F1B8B0F15CDD1CC008FC581 /* JSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKit.h; sourceTree = "<group>"; };
 		9F1B8B1015CDD1CC008FC581 /* JSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKit.m; sourceTree = "<group>"; };
+		9FE4AAD015FC594200D9DC4D /* HCYoutubeParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCYoutubeParser.h; sourceTree = "<group>"; };
+		9FE4AAD115FC594200D9DC4D /* HCYoutubeParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCYoutubeParser.m; sourceTree = "<group>"; };
 		9FFA0D2315CDEE0C002C779A /* QTKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QTKit.framework; path = System/Library/Frameworks/QTKit.framework; sourceTree = SDKROOT; };
 		9FFA0D3B15CE0163002C779A /* icon.iconset */ = {isa = PBXFileReference; lastKnownFileType = folder.iconset; path = icon.iconset; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -259,6 +262,7 @@
 		9F1B8AB915CDD0AE008FC581 /* Library */ = {
 			isa = PBXGroup;
 			children = (
+				9FE4AACE15FC593A00D9DC4D /* HCYoutubeParser */,
 				9F1B8B0E15CDD1C4008FC581 /* JSONKit */,
 				9F1B8ABA15CDD0B9008FC581 /* ASIHttpRequest */,
 			);
@@ -350,6 +354,15 @@
 				9F1B8B1015CDD1CC008FC581 /* JSONKit.m */,
 			);
 			name = JSONKit;
+			sourceTree = "<group>";
+		};
+		9FE4AACE15FC593A00D9DC4D /* HCYoutubeParser */ = {
+			isa = PBXGroup;
+			children = (
+				9FE4AAD015FC594200D9DC4D /* HCYoutubeParser.h */,
+				9FE4AAD115FC594200D9DC4D /* HCYoutubeParser.m */,
+			);
+			name = HCYoutubeParser;
 			sourceTree = "<group>";
 		};
 		9FFA0D2615CE007D002C779A /* Images */ = {
@@ -493,6 +506,7 @@
 				9F1B8AFD15CDD0E5008FC581 /* ASICloudFilesRequest.m in Sources */,
 				9F1B8B0115CDD0F9008FC581 /* ASIWebPageRequest.m in Sources */,
 				9F1B8B1115CDD1CC008FC581 /* JSONKit.m in Sources */,
+				9FE4AAD215FC594200D9DC4D /* HCYoutubeParser.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

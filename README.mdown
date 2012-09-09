@@ -1,6 +1,9 @@
-uTubely 1.0
+uTubely 1.1
 ======================
-August 5, 2012
+Originally posted on: August 5, 2012
+Updated: September 9, 2012
+
+Youtube scrapping code is changed to leverage the HCYoutubeParser instead <https://github.com/hellozimi/HCYoutubeParser>
 
 ## About
 
