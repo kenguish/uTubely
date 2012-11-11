@@ -27,6 +27,13 @@
 
 #import <Foundation/Foundation.h>
 
+typedef enum {
+    YouTubeThumbnailDefault,
+    YouTubeThumbnailDefaultMedium,
+    YouTubeThumbnailDefaultHighQuality,
+    YouTubeThumbnailDefaultMaxQuality
+} YouTubeThumbnail;
+
 @interface HCYoutubeParser : NSObject
 
 /**
@@ -38,33 +45,17 @@
  */
 + (NSDictionary *)h264videosWithYoutubeURL:(NSURL *)youtubeURL;
 
-@end
-
-
-@interface NSString (QueryString)
-
 /**
- Parses a query string
+ Method for retreiving a thumbnail for wanted youtube url
  
- @return key value dictionary with each parameter as an array
+ @param youtubeURL the the complete youtube video url
+ @param thumbnailSize the wanted size of the thumbnail
+ @param completeBlock the block which is called on completion
  */
-- (NSMutableDictionary *)dictionaryFromQueryStringComponents;
 
-
-/**
- Convenient method for decoding a html encoded string
- */
-- (NSString *)stringByDecodingURLFormat;
-
-@end
-
-@interface NSURL (QueryString)
-
-/**
- Parses a query string of an NSURL
- 
- @return key value dictionary with each parameter as an array
- */
-- (NSMutableDictionary *)dictionaryForQueryString;
-
+/*
++ (void)thumbnailForYoutubeURL:(NSURL *)youtubeURL
+                 thumbnailSize:(YouTubeThumbnail)thumbnailSize
+                 completeBlock:(void(^)(UIImage *image, NSError *error))completeBlock;
+*/
 @end

@@ -92,6 +92,9 @@
             
             if (url != nil) {
                 self.extractedURL = [NSURL URLWithString: url];
+                
+                NSLog(@"url: %@", url);
+                
                 // start fetching videos
                 [self.progressIndicator setIndeterminate: NO];
                 
